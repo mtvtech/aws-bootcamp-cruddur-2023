@@ -32,6 +32,7 @@ The concept shows a highly available web application that includes the following
 - Public facing LB in fron of the front end VMs (Auto scal configured)
 - Internal LB for the backend VMs (Auto scale configured)
 - Master and slave Databses 
+
 ![image](https://user-images.githubusercontent.com/124897604/219553903-732415c2-28f8-4f9c-a51d-065f611a6644.png)
 
 
