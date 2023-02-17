@@ -28,11 +28,12 @@ I was able to created an MFA device using DUO
 
 Conceptual drawing on a Napkin :)
 The concept shows a highly available web application that includes the following:
-![image](https://user-images.githubusercontent.com/124897604/219553798-f5a3924d-d305-42cd-8358-692c196615ed.png)
 - User
 - Public facing LB in fron of the front end VMs (Auto scal configured)
 - Internal LB for the backend VMs (Auto scale configured)
 - Master and slave Databses 
+![image](https://user-images.githubusercontent.com/124897604/219553903-732415c2-28f8-4f9c-a51d-065f611a6644.png)
+
 
 
 
