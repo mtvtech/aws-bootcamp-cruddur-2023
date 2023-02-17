@@ -29,8 +29,8 @@ I was able to created an MFA device using DUO
 Conceptual drawing on a Napkin :)
 The concept shows a highly available web application that includes the following:
 - User
-- Public facing LB in fron of the front end VMs (Auto scal configured)
-- Internal LB for the backend VMs (Auto scale configured)
+- Public facing load balancer (LB) in front of the "Frontend"  VMs (Auto scale group enabled)
+- Internal LB for the backend VMs (Auto scale group enabled)
 - Master-Slave Database Architecture 
 
 ![image](https://user-images.githubusercontent.com/124897604/219553903-732415c2-28f8-4f9c-a51d-065f611a6644.png)
