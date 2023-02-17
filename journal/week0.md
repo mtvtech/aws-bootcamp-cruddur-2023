@@ -1,6 +1,7 @@
 # Week 0 — Billing and Architecture
 
 Overview
+
 The week 0 is focused on setting up different accounts like AWS, github, LucidChart ..etc and do basic configuration by utilizing the live lecture or by watching AWS Bootcamp instructors on demand How-to/lectures.
 
 Week 0 - Home Work for AWS boot Camp 
