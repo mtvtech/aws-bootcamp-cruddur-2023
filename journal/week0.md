@@ -36,11 +36,7 @@ The concept shows a highly available web application that includes the following
 ![image](https://user-images.githubusercontent.com/124897604/219553903-732415c2-28f8-4f9c-a51d-065f611a6644.png)
 
 Lucid Chart re-draw HW
-![image](https://user-images.githubusercontent.com/124897604/219827098-ab458773-6ab5-4291-a67d-d16c6682030c.png)
-
-
-
-
+![image](https://user-images.githubusercontent.com/124897604/219827116-7c27dd65-4a0b-45ab-a91b-88437e08e5df.png)
 
 
 
