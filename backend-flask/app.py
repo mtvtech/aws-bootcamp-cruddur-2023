@@ -4,7 +4,6 @@ from flask_cors import CORS, cross_origin
 import os
 
 from services.home_activities import *
-from services.notifications_activities import *
 from services.user_activities import *
 from services.create_activity import *
 from services.create_reply import *
@@ -66,11 +65,14 @@ def data_home():
   data = HomeActivities.run()
   return data, 200
 
+<<<<<<< HEAD
   @app.route("/api/activities/notifications", methods=['GET'])
 def data_notification():
   data = NotficationActivities.run()
   return data, 200
 
+=======
+>>>>>>> parent of d525f22 (create new notification backend endpoint)
 @app.route("/api/activities/@<string:handle>", methods=['GET'])
 def data_handle(handle):
   model = UserActivities.run(handle)
