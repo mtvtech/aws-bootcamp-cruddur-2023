@@ -1,4 +1,4 @@
-import './NotificationsFeedPage.css';
+import './NotificationFeedPage.css';
 import React from "react";
 
 import DesktopNavigation  from '../components/DesktopNavigation';
