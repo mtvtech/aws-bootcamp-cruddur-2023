@@ -8,19 +8,11 @@ showing docker compose up
 2) showing launch the frontend and backend application successfully.
 ![image](https://user-images.githubusercontent.com/124897604/222779350-5c208ccc-e68a-48f6-86a2-c5a1818c9d8e.png)
 
-3) showing signing up with mock data to the web application,
+3) Showing signing up with mock data to the web application,
 ![image](https://user-images.githubusercontent.com/124897604/222783534-b90a9a8a-4648-4a58-85d6-33140e2ee84d.png)
 
+4) showing how to use OpenApi extention. The activities are grouped together.
+![image](https://user-images.githubusercontent.com/124897604/222784180-a8376a2d-8a5a-4b27-9d22-46452cf1291b.png)
 
-4) ss
 
-
-5) 
-
-3) sss
-4) sss
-5) ssss
-6) sss
-7) sss
-8) ss
 
