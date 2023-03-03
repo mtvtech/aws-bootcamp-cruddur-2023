@@ -16,9 +16,10 @@ showing docker compose up
 
 Some of the highlights from week1 learning are:
 
-Troubleshooting:
-Installing dependecies such as "npm i" before running "docker compse up" 
-npm install packages (or npm i) 
+Installing dependecies such as "npm i" before running "docker compse up"
+
+npm install packages (or npm i) - well, what does "npm i" do?
+
 "This command installs a package and any packages that it depends on. If the package has a package-lock, or an npm shrinkwrap file, or a yarn lock file, the installation of dependencies will be driven by that, respecting the following order of precedence"
 https://docs.npmjs.com/cli/v9/commands/npm-install
 
