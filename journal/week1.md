@@ -8,7 +8,13 @@ showing docker compose up
 2) showing launch the frontend and backend application successfully.
 ![image](https://user-images.githubusercontent.com/124897604/222779350-5c208ccc-e68a-48f6-86a2-c5a1818c9d8e.png)
 
+3) showing signing up with mock data to the web application,
 
+
+4) ss
+
+
+5) 
 
 3) sss
 4) sss
