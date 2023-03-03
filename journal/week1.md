@@ -14,5 +14,13 @@ showing docker compose up
 4) showing how to use OpenApi extention. The activities are grouped together.
 ![image](https://user-images.githubusercontent.com/124897604/222784180-a8376a2d-8a5a-4b27-9d22-46452cf1291b.png)
 
+Some of the highlights from week1 learning are:
+
+Troubleshooting:
+Installing dependecies such as "npm i" before running "docker compse up" 
+npm install packages (or npm i) 
+"This command installs a package and any packages that it depends on. If the package has a package-lock, or an npm shrinkwrap file, or a yarn lock file, the installation of dependencies will be driven by that, respecting the following order of precedence"
+https://docs.npmjs.com/cli/v9/commands/npm-install
+
 
 
