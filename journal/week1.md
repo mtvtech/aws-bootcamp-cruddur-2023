@@ -31,5 +31,9 @@ Shows an interaction with DynamoDB
 
 ![image](https://user-images.githubusercontent.com/124897604/223318590-347bde31-4956-45d0-a1f2-7c63a59d4340.png)
 
+Last but not list - showing Dynamodb scan
+![image](https://user-images.githubusercontent.com/124897604/223319049-3a24f6f4-2f4d-4fdb-9d3f-4b60481f35e0.png)
+
+
 
 
