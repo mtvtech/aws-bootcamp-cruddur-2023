@@ -27,8 +27,74 @@ Installed DynamoDB and Postgress
 I created another docker-compose file at the root of the AWSS-BOOTCAMP-CRUDDUR-2023
 ![image](https://user-images.githubusercontent.com/124897604/223315351-13605323-e872-45f5-a648-bc168fe75b69.png)
 
+?
+
+![image](https://user-images.githubusercontent.com/124897604/223317917-3266c641-f106-48a7-83cd-02c97fd8a096.png)
+
+
 Postgres verify
 ![image](https://user-images.githubusercontent.com/124897604/223315575-ef9a2dde-179a-4f7c-a53f-6fbf0133f8c5.png)
+
+gitpod /workspace/aws-bootcamp-cruddur-2023 (main) $ aws
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: the following arguments are required: command
+
+gitpod /workspace/aws-bootcamp-cruddur-2023 (main) $ aws dynamodb create-table \
+>     --endpoint-url http://localhost:8000 \
+>     --table-name Music \
+>     --attribute-definitions \
+>         AttributeName=Artist,AttributeType=S \
+>         AttributeName=SongTitle,AttributeType=S \
+>     --key-schema AttributeName=Artist,KeyType=HASH AttributeName=SongTitle,KeyType=RANGE \
+>     --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 \
+>     --table-class STANDARD
+{
+    "TableDescription": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "Artist",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "SongTitle",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "Music",
+        "KeySchema": [
+            {
+                "AttributeName": "Artist",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "SongTitle",
+                "KeyType": "RANGE"
+            }
+gitpod /workspace/aws-bootcamp-cruddur-2023 (main) $ aws dynamodb put-item \
+>     --endpoint-url http://localhost:8000 \
+>     --table-name Music \
+>     --item \
+>         '{"Artist": {"S": "No One You Know"}, "SongTitle": {"S": "Call Me Today"}, "AlbumTitle": {"S": "Somewhat Famous"}}' \
+>     --return-consumed-capacity TOTAL  
+{
+    "ConsumedCapacity": {
+        "TableName": "Music",
+        "CapacityUnits": 1.0
+    }
+}
+gitpod /workspace/aws-bootcamp-cruddur-2023 (main) $ aws dynamodb list-tables --endpoint-url http://localhost:8000
+{
+    "TableNames": [
+        "Music"
+    ]
+}
 
 
 
