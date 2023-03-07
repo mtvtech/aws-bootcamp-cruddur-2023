@@ -27,7 +27,7 @@ Installed DynamoDB and Postgress
 I created another docker-compose file at the root of the AWSS-BOOTCAMP-CRUDDUR-2023
 ![image](https://user-images.githubusercontent.com/124897604/223315351-13605323-e872-45f5-a648-bc168fe75b69.png)
 
-Postgresss verify
+Postgres verify
 ![image](https://user-images.githubusercontent.com/124897604/223315575-ef9a2dde-179a-4f7c-a53f-6fbf0133f8c5.png)
 
 
