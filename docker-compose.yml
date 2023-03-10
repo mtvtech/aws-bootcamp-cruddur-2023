@@ -2,6 +2,8 @@ version: "3.8"
 services:
   backend-flask:
     environment:
+      #FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      #BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
       FRONTEND_URL: "*"
       BACKEND_URL: "*"
     build: ./backend-flask
@@ -11,7 +13,7 @@ services:
       - ./backend-flask:/backend-flask
   frontend-react-js:
     environment:
-      REACT_APP_BACKEND_URL: "http://127.0.0.1:4567/"
+      REACT_APP_BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
     build: ./frontend-react-js
     ports:
       - "3000:3000"
