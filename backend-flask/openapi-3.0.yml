@@ -69,7 +69,6 @@ paths:
                 type: object
                 items:
                   $ref: '#/components/schemas/Activity'
-
   /api/activities/@{handle}:
     get:
       description: 'Return a feed of activity for a specific user'
@@ -149,15 +148,15 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Message'
-  /api/activities/notfications:
+  /api/activities/notifications:
     get:
-      description: 'Return a feed of activtity for all those that I follow'
+      description: 'Return a feed of activities for all of I follow'
       tags:
         - activities
       parameters: []
       responses:
         '200':
-          description: Returns an array of activities
+          description: Return an array of activities
           content:
             application/json:
               schema:
