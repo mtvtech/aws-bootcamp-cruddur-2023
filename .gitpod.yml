@@ -19,7 +19,3 @@ ports:
     visibility: public
   - name: backend
     port: 4567
-    visibility: public
-  - name: xray-daemon
-    port: 2000
-    visibility: public
