@@ -14,6 +14,14 @@ showing docker compose up
 4) showing how to use OpenApi extention. The activities are grouped together.
 ![image](https://user-images.githubusercontent.com/124897604/222784180-a8376a2d-8a5a-4b27-9d22-46452cf1291b.png)
 
+Here are some of the work I did on front end and bac end notfications:
+
+Backend notfication testing with port 4567
+
+![image](https://user-images.githubusercontent.com/124897604/224582607-3225911e-04d3-4f96-bc42-9a83c2f2c706.png)
+
+![image](https://user-images.githubusercontent.com/124897604/224582640-3609fbcc-ba12-4e25-9c16-a3d69a061bef.png)
+
 Some of the highlights from week1 learning are:
 
 Installing dependecies such as "npm i" before running "docker compse up"
