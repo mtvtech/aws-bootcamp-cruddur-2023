@@ -19,4 +19,3 @@ ports:
     visibility: public
   - name: backend
     port: 4567
-    visibility: public
