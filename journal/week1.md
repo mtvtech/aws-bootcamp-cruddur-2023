@@ -42,6 +42,12 @@ Shows an interaction with DynamoDB
 Last but not list - showing Dynamodb scan
 ![image](https://user-images.githubusercontent.com/124897604/223319049-3a24f6f4-2f4d-4fdb-9d3f-4b60481f35e0.png)
 
+Showing all the containers running including DybamoDB and Postgress using Docker Ps 
+
+![image](https://user-images.githubusercontent.com/124897604/224582920-bf53337d-af52-4d11-a873-da91440f7d38.png)
+
+![image](https://user-images.githubusercontent.com/124897604/223319049-3a24f6f4-2f4d-4fdb-9d3f-4b60481f35e0.png)
+
 
 
 
