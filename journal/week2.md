@@ -48,15 +48,19 @@ Verify that the requirements.txt file has the following codes:
 
 ![image](https://user-images.githubusercontent.com/124897604/224901178-dfd87543-62cb-4992-88f3-2368f9e87a12.png)
 
+6) After making sure the front and backend flask applications are up. Generated traces ny reloading the browser.
+
+![image](https://user-images.githubusercontent.com/124897604/224901941-61f7f0d5-5545-4682-8da5-5e2a4ffa1a29.png)
+
+showing the browser
+
+7) Displaying metrics generated from Honeycomb instrumentation
+
+![image](https://user-images.githubusercontent.com/124897604/224902584-891d3f9c-77ec-4af3-a9b5-0ed211454cfd.png)
 
 
 
 
-
-
-
-
-7) 
 
 
 
