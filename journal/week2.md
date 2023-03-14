@@ -6,7 +6,7 @@ What is Instrumentation ?
 Instrumentation is the code that collect and send the data to a platform such as Hineycomb that makes the trace.
 
 What is span?
-A span is a part of a trace that describes a certain unit of work . A trace has a start, end and a duration.
+A span is a part of a trace that describes a certain unit of work . A trace has a start, an end and a duration.
 
 ![image](https://user-images.githubusercontent.com/124897604/224895668-ad093500-1eb2-4fb7-9fee-f7322b070373.png)
 
