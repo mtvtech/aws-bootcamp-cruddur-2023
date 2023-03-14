@@ -11,5 +11,7 @@ A span iss a part of a trace that describes a certain unit of work . A trace has
 ![image](https://user-images.githubusercontent.com/124897604/224895668-ad093500-1eb2-4fb7-9fee-f7322b070373.png)
 
 
-Example of a trace
+Example of a trace. It shows a span, the duration and selected properties.
+
+
 
