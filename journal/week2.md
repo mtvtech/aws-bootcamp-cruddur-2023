@@ -44,6 +44,12 @@ Verify that the requirements.txt file has the following codes:
 
 ![image](https://user-images.githubusercontent.com/124897604/224898623-8154c372-074e-4930-8bb2-8c055fa15efd.png)
 
+5) Confifure docker-compose file and the following variables:
+
+![image](https://user-images.githubusercontent.com/124897604/224901178-dfd87543-62cb-4992-88f3-2368f9e87a12.png)
+
+
+
 
 
 
