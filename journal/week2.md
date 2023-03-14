@@ -27,10 +27,8 @@ https://docs.honeycomb.io/getting-data-in/opentelemetry/python/
 
 Add:
 
-export OTEL_EXPORTER_OTLP_ENDPOINT="https://api.honeycomb.io/"
-export OTEL_EXPORTER_OTLP_HEADERS="x-honeycomb-team=your-api-key"
-export OTEL_SERVICE_NAME="your-service-name"
-python app.py tracing.py
+![image](https://user-images.githubusercontent.com/124897604/224898080-5482b2fa-7252-4b83-b03b-b5ca8f0beca2.png)
+
 
 
 3) Install these dependencies from backend-flask directory:
