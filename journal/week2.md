@@ -37,11 +37,8 @@ pip install -r requirements.txt
 
 Verify that the requirements.txt file has the following codes:
 
-opentelemetry-api 
-opentelemetry-sdk 
-opentelemetry-exporter-otlp-proto-http 
-opentelemetry-instrumentation-flask 
-opentelemetry-instrumentation-requests
+![image](https://user-images.githubusercontent.com/124897604/224898368-2c6fcbac-de2c-4002-bdd7-e492db7cc6b8.png)
+
 
 4) Makesure to export the necssary 
 
