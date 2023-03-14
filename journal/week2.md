@@ -40,10 +40,10 @@ Verify that the requirements.txt file has the following codes:
 ![image](https://user-images.githubusercontent.com/124897604/224898368-2c6fcbac-de2c-4002-bdd7-e492db7cc6b8.png)
 
 
-4) Makesure to export the necssary 
+4) Makesure to export the necssary & set access tokens.
 
-export ROLLBAR_ACCESS_TOKEN="***********"
-gp env ROLLBAR_ACCESS_TOKEN="***********"
+![image](https://user-images.githubusercontent.com/124897604/224898623-8154c372-074e-4930-8bb2-8c055fa15efd.png)
+
 
 
 
