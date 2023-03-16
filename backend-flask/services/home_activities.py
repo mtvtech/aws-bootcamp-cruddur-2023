@@ -1,4 +1,10 @@
-from datetime import datetime, timedelta, timezone
+from flask import Flask
+from flask import request
+from flask_cors import CORS, cross_origin
+import os
+
+tracer = trace.get_tracer("home-activities")
+
 class HomeActivities:
   def run():
     now = datetime.now(timezone.utc).astimezone()
