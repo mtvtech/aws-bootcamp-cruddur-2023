@@ -7,6 +7,8 @@ tracer = trace.get_tracer("home-activities")
 
 class HomeActivities:
   def run():
+       # Logger.info("Home activities")
+    with tracer.start_as_current_span("home-activity"): 
     now = datetime.now(timezone.utc).astimezone()
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
