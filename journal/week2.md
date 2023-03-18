@@ -39,9 +39,6 @@ Add:
 
 ![image](https://user-images.githubusercontent.com/124897604/224898368-2c6fcbac-de2c-4002-bdd7-e492db7cc6b8.png)
 
-Showing Rollbar "Hello World" test:
-![image](https://user-images.githubusercontent.com/124897604/226081335-128b8b3d-4b8f-4237-b4ce-faf0181b23be.png)
-
 
 4) Makesure to export the necessary & set access tokens.
 
@@ -77,6 +74,11 @@ In this section you can see that a code of removed from the baceknd and that gen
 2nd Added  "blinker and rollbar" in the  requirments.txt file and run pip install from the "backend-flask" directory.
 
 3rd configured app.py and two block of code:
+
+Showing Rollbar "Hello World" test:
+![image](https://user-images.githubusercontent.com/124897604/226081335-128b8b3d-4b8f-4237-b4ce-faf0181b23be.png)
+
+Dashboard showing error...etc
 
 ![image](https://user-images.githubusercontent.com/124897604/226081130-b82132c5-38e1-4f53-8e7b-c4738e54ac29.png)
 
