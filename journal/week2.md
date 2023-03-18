@@ -60,6 +60,17 @@ showing the browser
 
 Cloudwatch
 
+I was to configure AWS Cloudwatch and complete only the first part. The Span part broke my code and have a plan to come back and complete the 2nd part.
+
+1st added  "watchtower" in the  requirments.txt file and run pip install from the "backend-flask" directory.
+
+2nd Configured docker-compose.yml and include the following environment variables.
+
+![image](https://user-images.githubusercontent.com/124897604/226082088-c0f9a996-0924-464d-a9c6-e187a7c5987f.png)
+
+1st added  "watchtower" in the  requirments.txt file and run pip install from the "backend-flask" directory.
+
+![image](https://user-images.githubusercontent.com/124897604/226082104-c4f4a29a-8e8a-4fd7-bd33-b3cbf94ac81c.png)
 
 
 
