@@ -97,6 +97,12 @@ Error showing when accessing the backend
 
 ![image](https://user-images.githubusercontent.com/124897604/226081335-128b8b3d-4b8f-4237-b4ce-faf0181b23be.png)
 
+The same error was reported to Rollbarr.
+
+![image](https://user-images.githubusercontent.com/124897604/226081568-1cd86ac1-3e0b-451f-b9f4-5b44904cfb6c.png)
+
+
+
 
 
 
