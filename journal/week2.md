@@ -58,6 +58,39 @@ showing the browser
 
 ![image](https://user-images.githubusercontent.com/124897604/224902584-891d3f9c-77ec-4af3-a9b5-0ed211454cfd.png)
 
+Cloudwatch
+
+
+
+
+Rollbar
+
+"Rollbar is a a cloud-based bug tracking and monitoring soluation."
+
+In this section you can see that a code of removed from the baceknd and that generated an error which was reported to Rollbar.
+
+1st created a Rollbar free account and selected "flask" as a framework.. 
+
+2nd Added  "blinker and rollbar" in the  requirments.txt file and run pip install from the "backend-flask" directory.
+
+3rd configured app.py and two block of code:
+
+![image](https://user-images.githubusercontent.com/124897604/226081130-b82132c5-38e1-4f53-8e7b-c4738e54ac29.png)
+
+
+
+Based on : https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-2/journal/week2.md
+
+showing Rollbar Dashboard:
+![image](https://user-images.githubusercontent.com/124897604/226081036-8f10ba43-d28c-456d-93a8-a18ae7b027db.png)
+
+
+
+
+
+
+
+
 
 
 
