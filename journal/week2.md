@@ -39,6 +39,9 @@ Add:
 
 ![image](https://user-images.githubusercontent.com/124897604/224898368-2c6fcbac-de2c-4002-bdd7-e492db7cc6b8.png)
 
+Showing Rollbar "Hello World" test:
+![image](https://user-images.githubusercontent.com/124897604/226081335-128b8b3d-4b8f-4237-b4ce-faf0181b23be.png)
+
 
 4) Makesure to export the necessary & set access tokens.
 
@@ -93,9 +96,6 @@ Error showing when accessing the backend
 
 ![image](https://user-images.githubusercontent.com/124897604/226081467-0fda69f5-92ee-43b0-ba7a-715f28e2b76e.png)
 
-
-
-![image](https://user-images.githubusercontent.com/124897604/226081335-128b8b3d-4b8f-4237-b4ce-faf0181b23be.png)
 
 The same error was reported to Rollbarr.
 
