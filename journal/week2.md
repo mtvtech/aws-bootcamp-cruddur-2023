@@ -68,9 +68,10 @@ I was to configure AWS Cloudwatch and complete only the first part. The Span par
 
 ![image](https://user-images.githubusercontent.com/124897604/226082088-c0f9a996-0924-464d-a9c6-e187a7c5987f.png)
 
-1st added  "watchtower" in the  requirments.txt file and run pip install from the "backend-flask" directory.
+app.py added the following codes:
 
-![image](https://user-images.githubusercontent.com/124897604/226082104-c4f4a29a-8e8a-4fd7-bd33-b3cbf94ac81c.png)
+![image](https://user-images.githubusercontent.com/124897604/226082248-1ee5e3d4-55ed-498f-a960-9c91fa9bf6ca.png)
+
 
 
 
