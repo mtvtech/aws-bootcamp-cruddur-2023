@@ -76,6 +76,7 @@ In this section you can see that a code of removed from the baceknd and that gen
 3rd configured app.py and two block of code:
 
 Showing Rollbar "Hello World" test:
+
 ![image](https://user-images.githubusercontent.com/124897604/226081335-128b8b3d-4b8f-4237-b4ce-faf0181b23be.png)
 
 Dashboard showing error...etc
