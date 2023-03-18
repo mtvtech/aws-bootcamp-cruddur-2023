@@ -72,6 +72,10 @@ app.py added the following codes:
 
 ![image](https://user-images.githubusercontent.com/124897604/226082248-1ee5e3d4-55ed-498f-a960-9c91fa9bf6ca.png)
 
+Showing Logstream in AWSS CloudWatch.
+
+![image](https://user-images.githubusercontent.com/124897604/226082446-886bdece-771f-4d91-a453-13d3a0b4c922.png)
+
 
 
 
