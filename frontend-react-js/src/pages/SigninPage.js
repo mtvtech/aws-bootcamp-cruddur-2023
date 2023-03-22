@@ -4,7 +4,7 @@ import {ReactComponent as Logo} from '../components/svg/logo.svg';
 import { Link } from "react-router-dom";
 
 // [TODO] Authenication
-import Cookies from 'js-cookie'
+import { Auth } from 'aws-amplify';
 
 export default function SigninPage() {
 
@@ -15,14 +15,25 @@ export default function SigninPage() {
   const onsubmit = async (event) => {
     event.preventDefault();
     setErrors('')
-    console.log('onsubmit')
-    if (Cookies.get('user.email') === email && Cookies.get('user.password') === password){
-      Cookies.set('user.logged_in', true)
+
+    Auth
+    .signIn(email, password)
+    .then(user => {
+      console.log(JSON.stringify(null, 2, user))
+      const jwtAccessToken = user.signInUserSession.accessToken.jwtToken;
+      console.log(jwtAccessToken);
+      localStorage.setItem("access_token", jwtAccessToken)
       window.location.href = "/"
-    } else {
-      setErrors("Email and password is incorrect or account doesn't exist")
-    }
-    return false
+    })
+    .catch(error => { 
+      if (error.code === 'UserNotConfirmedException') {
+        window.location.href = "/confirm"
+      }
+      console.error(error.message);
+      setErrors(error.message);
+    });
+
+    return false;
   }
 
   const email_onchange = (event) => {
