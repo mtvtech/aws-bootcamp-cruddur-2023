@@ -61,6 +61,7 @@ Showing email sent for recovery.
 
 
 Entered a nw password  and reset code recoved via emaaail. 
+
 ![image](https://user-images.githubusercontent.com/124897604/227417674-4a250177-6105-4c3a-9360-2a6d3407f0e0.png)
 
 
