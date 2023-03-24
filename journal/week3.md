@@ -66,7 +66,6 @@ Entered a nw password  and reset code recoved via emaaail.
 
 
 
-jjjjjjj
-
+A screenshot showwing successful login.
 ![image](https://user-images.githubusercontent.com/124897604/227416661-fb869fc8-9c88-475d-9309-bd8333867c17.png)
 
