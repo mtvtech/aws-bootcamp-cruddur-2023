@@ -16,9 +16,29 @@ $ npm i aws-amplify --save
 
 
 Incoorect username or password:
-This shows the expected error message before adding more codes and making the signin in paage fully fuctional.
+This shows the expected error message before adding more codes and making the signin in paage fully fuctional. This shows cognito integraation to cruddur is correct.
 
 ![image](https://user-images.githubusercontent.com/124897604/227407271-f2fbdc4f-aa59-4a3f-953e-e59183deaa5e.png)
+
+
+Implement  custom signup page.
+
+After updating the "SignupPage.js" and replaced onSubmit,  
+
+![image](https://user-images.githubusercontent.com/124897604/227408302-1fe6e54d-bd2a-478a-bfce-747f1f55b572.png)
+
+Implement  custom signup page.
+
+
+
+
+
+Implement Custome confirmation page
+
+
+
+Implement recovery page
+
 
 
 
