@@ -16,14 +16,14 @@ $ npm i aws-amplify --save
 
 
 Incoorect username or password:
-This shows the expected error message before adding more codes and making the signin in paage fully fuctional. This shows cognito integraation to cruddur is correct.
+This shows the expected error message before adding more codes and making the signin in page more fuctional. This shows cognito integraation to cruddur is correctly.
 
 ![image](https://user-images.githubusercontent.com/124897604/227407271-f2fbdc4f-aa59-4a3f-953e-e59183deaa5e.png)
 
 
 Implement  custom signup page.
 
-After updating the "SignupPage.js" and replaced onSubmit,  
+Updating the "SignupPage.js" and replaced onSubmit line of code : 
 
 ![image](https://user-images.githubusercontent.com/124897604/227408302-1fe6e54d-bd2a-478a-bfce-747f1f55b572.png)
 
@@ -70,42 +70,3 @@ jjjjjjj
 
 ![image](https://user-images.githubusercontent.com/124897604/227416661-fb869fc8-9c88-475d-9309-bd8333867c17.png)
 
-
-
-
-
-
-
-
-s
-$ 
-
-
-
-4) sss
-5) sss
-6) ssss
-7) sss
-8) 
-
-
-
-
-
-
-
-
-
-"The Amplify Command Line Interface (CLI) is a unified toolchain to create AWS cloud services for your app. Let's go ahead and install the Amplify CLI." aws.
-
-
-
-
-
-
-Install and configure Amplify client-side library for Amazon Congito
-Implement API calls to Amazon Coginto for custom login, signup, recovery and forgot password page
-Show conditional elements and data based on logged in or logged out
-Verify JWT Token server side to serve authenticated API endpoints in Flask Application
-Setup Cognito user pool:
-In AWS serach for C
