@@ -35,10 +35,6 @@ Implement  custom signup page. Showing the signup page.
 ![image](https://user-images.githubusercontent.com/124897604/227420212-b56d3506-f269-4766-be90-728287445d1a.png)
 
 
-![image](https://user-images.githubusercontent.com/124897604/227416769-bbe7044e-c560-46e1-ab4d-70e5a97de630.png)
-
-
-
 
 Implement Custome confirmation page
 
