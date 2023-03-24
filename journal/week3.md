@@ -53,7 +53,8 @@ Implement Custome confirmation page
 
 Implement recovery page
 
-![image](https://user-images.githubusercontent.com/124897604/227416999-d6b1cf59-37f9-43db-a142-204b33372945.png)
+![image](https://user-images.githubusercontent.com/124897604/227417840-20cbc9b6-673e-4b72-b38f-c2792b81861f.png)
+
 
 jjjj
 
