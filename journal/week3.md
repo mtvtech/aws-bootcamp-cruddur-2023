@@ -55,9 +55,12 @@ Implement recovery page
 
 ![image](https://user-images.githubusercontent.com/124897604/227417840-20cbc9b6-673e-4b72-b38f-c2792b81861f.png)
 
+Showing email sent for recovery.
+![image](https://user-images.githubusercontent.com/124897604/227418208-56f02be3-ee37-4cd4-a7a1-6ad2821cbc30.png)
 
-jjjj
 
+
+Entered a nw password  and reset code recoved via emaaail. 
 ![image](https://user-images.githubusercontent.com/124897604/227417674-4a250177-6105-4c3a-9360-2a6d3407f0e0.png)
 
 
