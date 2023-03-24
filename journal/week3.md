@@ -1,10 +1,29 @@
 # Week 3 — Decentralized Authentication
 
-Creating Amazon Cognito User Pool:
+1) Creating Amazon Cognito User Pool:
 
-In the first part of the exercise. I created a user pool in  Cognito a couple of time.  The following screen shot shows the last user pool created when working on signup paage and recovery page for "cruddur" application.
+In the first part of the exercise. I created a user pool in  Cognito a couple of time.  The following screen shot shows the user pool created when working on signup page and recovery page for "cruddur" web application.
 
 ![image](https://user-images.githubusercontent.com/124897604/227403924-f49a1076-fe6f-4d4e-94a3-beadaaae8b2c.png)
+
+2) Setup Environment variable in order to enable the signing page. The following JavaScript library is required in order to interact with aws-cognito.
+
+$ npm i aws-amplify --save
+
+
+
+
+s
+$ 
+
+
+
+4) sss
+5) sss
+6) ssss
+7) sss
+8) 
+
 
 
 
