@@ -1,5 +1,8 @@
 # Week 3 — Decentralized Authentication
 
+Source: https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-3/journal/week3.md
+
+
 1) Creating Amazon Cognito User Pool:
 
 In the first part of the exercise. I created a user pool in  Cognito a couple of time.  The following screen shot shows the user pool created when working on signup page and recovery page for "cruddur" web application.
@@ -9,6 +12,13 @@ In the first part of the exercise. I created a user pool in  Cognito a couple of
 2) Setup Environment variable in order to enable the signing page. The following JavaScript library is required in order to interact with aws-cognito.
 
 $ npm i aws-amplify --save
+
+
+
+Incoorect username or password:
+This shows the expected error message before adding more codes and making the signin in paage fully fuctional.
+
+![image](https://user-images.githubusercontent.com/124897604/227407184-3f520e8e-94f5-4cd6-ad4a-e380970b79b4.png)
 
 
 
