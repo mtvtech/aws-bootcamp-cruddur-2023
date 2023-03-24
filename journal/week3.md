@@ -18,7 +18,7 @@ $ npm i aws-amplify --save
 Incoorect username or password:
 This shows the expected error message before adding more codes and making the signin in paage fully fuctional.
 
-![image](https://user-images.githubusercontent.com/124897604/227407184-3f520e8e-94f5-4cd6-ad4a-e380970b79b4.png)
+![image](https://user-images.githubusercontent.com/124897604/227407271-f2fbdc4f-aa59-4a3f-953e-e59183deaa5e.png)
 
 
 
