@@ -27,8 +27,13 @@ After updating the "SignupPage.js" and replaced onSubmit,
 
 ![image](https://user-images.githubusercontent.com/124897604/227408302-1fe6e54d-bd2a-478a-bfce-747f1f55b572.png)
 
+![image](https://user-images.githubusercontent.com/124897604/227416582-54e59604-1d74-4277-8187-1c5c898f41aa.png)
+
+
+
 Implement  custom signup page.
 
+![image](https://user-images.githubusercontent.com/124897604/227416769-bbe7044e-c560-46e1-ab4d-70e5a97de630.png)
 
 
 
@@ -37,7 +42,17 @@ Implement Custome confirmation page
 
 
 
+
+
+
+
+
 Implement recovery page
+
+![image](https://user-images.githubusercontent.com/124897604/227416661-fb869fc8-9c88-475d-9309-bd8333867c17.png)
+
+![image](https://user-images.githubusercontent.com/124897604/227416999-d6b1cf59-37f9-43db-a142-204b33372945.png)
+
 
 
 
