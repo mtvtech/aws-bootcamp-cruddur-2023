@@ -27,7 +27,7 @@ Updating the "SignupPage.js" and replaced onSubmit line of code :
 
 ![image](https://user-images.githubusercontent.com/124897604/227408302-1fe6e54d-bd2a-478a-bfce-747f1f55b572.png)
 
-![image](https://user-images.githubusercontent.com/124897604/227416582-54e59604-1d74-4277-8187-1c5c898f41aa.png)
+![image](https://user-images.githubusercontent.com/124897604/227419728-ab813e9b-dcab-4b0e-9346-a75b8c5248dd.png)
 
 
 
