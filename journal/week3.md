@@ -54,12 +54,12 @@ Showing email sent for recovery.
 
 
 
-Entered a nw password  and reset code recoved via emaaail. 
+Entered a new password  and reset code recoved via emaaail. 
 
 ![image](https://user-images.githubusercontent.com/124897604/227417674-4a250177-6105-4c3a-9360-2a6d3407f0e0.png)
 
 
 
-A screenshot showwing successful login.
+A screenshot showing successful login.
 ![image](https://user-images.githubusercontent.com/124897604/227416661-fb869fc8-9c88-475d-9309-bd8333867c17.png)
 
