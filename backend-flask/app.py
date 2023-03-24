@@ -14,6 +14,7 @@ from services.message_groups import *
 from services.messages import *
 from services.create_message import *
 from services.show_activity import *
+from lib.cognito_token_verfication import CognitoTokenVerification
 
 # Honeycomb.io
 from opentelemetry import trace
@@ -47,6 +48,12 @@ trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
+
+cognito_token_verfication = CognitoTokenVerification(
+  user_pool_id=os.getenv('AWS_COGNITO_USER_POOLS_ID'), 
+  user_pool_client_id=os.getenv('AWS_COGNITO_CLIENT_ID'), 
+  region=os.getenv('AWS_DEFAULT_REGION'):
+)
 
 # X-RAY ----------
 #XRayMiddleware(app, xray_recorder)
@@ -82,8 +89,8 @@ origins = [frontend, backend]
 cors = CORS(
   app, 
   resources={r"/api/*": {"origins": origins}},
-  expose_headers="location,link",
-  allow_headers="content-type,if-modified-since",
+  headers=['Content-Type', 'Authorization'], 
+  expose_headers='Authorization',
   methods="OPTIONS,GET,HEAD,POST"
 )
 
