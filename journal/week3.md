@@ -32,9 +32,7 @@ Updating the "SignupPage.js" and replaced onSubmit line of code :
 
 
 Implement  custom signup page. Showing the signup page.
-
-![image](https://user-images.githubusercontent.com/124897604/227417550-6f4dcad5-7e91-4353-9f1d-3735be623ab7.png)
-
+![image](https://user-images.githubusercontent.com/124897604/227420212-b56d3506-f269-4766-be90-728287445d1a.png)
 
 
 ![image](https://user-images.githubusercontent.com/124897604/227416769-bbe7044e-c560-46e1-ab4d-70e5a97de630.png)
