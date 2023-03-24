@@ -1,11 +1,13 @@
 # Week 3 — Decentralized Authentication
 
-Provision via ClickOps a Amazon Cognito User Pool:
+Creating Amazon Cognito User Pool:
 
-In the first part of the exercise. 
+In the first part of the exercise. I created a user pool in  Cognito a couple of time.  The following screen shot shows the last user pool created when working on signup paage and recovery page for "cruddur" application.
+
+![image](https://user-images.githubusercontent.com/124897604/227403924-f49a1076-fe6f-4d4e-94a3-beadaaae8b2c.png)
 
 
-![image](https://user-images.githubusercontent.com/124897604/227403464-e6cb59de-c08b-4125-87b3-e05f6fae79eb.png)
+
 
 
 
