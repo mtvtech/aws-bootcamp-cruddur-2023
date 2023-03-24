@@ -31,7 +31,7 @@ Updating the "SignupPage.js" and replaced onSubmit line of code :
 
 
 
-Implement  custom signup page.
+Implement  custom signup page. Showing the signup page.
 
 ![image](https://user-images.githubusercontent.com/124897604/227417550-6f4dcad5-7e91-4353-9f1d-3735be623ab7.png)
 
