@@ -57,7 +57,9 @@ Implement recovery page
 
 jjjj
 
-![image](https://user-images.githubusercontent.com/124897604/227417237-78e76840-5967-4aba-bf4d-fca54cffda68.png)
+![image](https://user-images.githubusercontent.com/124897604/227417674-4a250177-6105-4c3a-9360-2a6d3407f0e0.png)
+
+
 
 jjjjjjj
 
