@@ -48,16 +48,14 @@ LOGGER.addHandler(cw_handler)
 LOGGER.info("test log")
 
 # HoneyComb ---------
-# Initialize tracing and an exporter that can send data to Honeycomb
 provider = TracerProvider()
 processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
 
-# X-RAY ----------
+# X-RAY
 # xray_url = os.getenv("AWS_XRAY_URL")
 # xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
 
-# Show this in the logs within the backend-flask app (STDOUT)
 simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
 provider.add_span_processor(simple_processor)
 
@@ -70,7 +68,6 @@ app = Flask(__name__)
 # XRayMiddleware(app, xray_recorder)
 
 # HoneyComb ---------
-# Initialize automatic instrumentation with Flask
 FlaskInstrumentor().instrument_app(app)
 RequestsInstrumentor().instrument()
 
@@ -102,12 +99,9 @@ def after_request(response):
 #        rollbar_access_token,
 #        # environment name
 #        'production',
-#        # server root directory, makes tracebacks prettier
 #        root=os.path.dirname(os.path.realpath(__file__)),
 #        # flask already sets up logging
 #        allow_logging_basic_config=False)
-
-#    # send exceptions from `app` to rollbar, using flask's signal system.
 #    got_request_exception.connect(rollbar.contrib.flask.report_exception, app)
 
 #@app.route('/rollbar/test')
