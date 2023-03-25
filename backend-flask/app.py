@@ -3,9 +3,7 @@ from flask import request
 from flask_cors import CORS, cross_origin
 import os
 
-# Application services
 from services.home_activities import *
-from services.notifications_activities import *
 from services.user_activities import *
 from services.create_activity import *
 from services.create_reply import *
@@ -16,7 +14,7 @@ from services.create_message import *
 from services.show_activity import *
 from lib.cognito_token_verfication import CognitoTokenVerification
 
-# Honeycomb.io
+# Honeycomb
 from opentelemetry import trace
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry.instrumentation.requests import RequestsInstrumentor
@@ -32,6 +30,33 @@ import rollbar.contrib.flask
 from flask import got_request_exception
 
 # Honeycomb
+=======
+# X-RAY ----------
+#from aws_xray_sdk.core import xray_recorder
+#from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+
+# cloudwatch logs ----
+import watchtower
+import logging
+from time import strftime
+
+# ROLLBAR ----
+#from time import strftime
+#import os
+#import rollbar
+#import rollbar.contrib.flask
+#from flask import got_request_exception
+
+# Configuring Logger to Use CloudWatch
+LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.DEBUG)
+console_handler = logging.StreamHandler()
+cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
+LOGGER.addHandler(console_handler)
+LOGGER.addHandler(cw_handler)
+LOGGER.info("test log")
+
+# HoneyComb ---------
 provider = TracerProvider()
 processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
@@ -43,6 +68,12 @@ provider.add_span_processor(processor)
 # Show this in the logs within the backend-flask app (STDOUT)
 #simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
 #provider.add_span_processor(simple_processor)
+# X-RAY
+# xray_url = os.getenv("AWS_XRAY_URL")
+# xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
+
+simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
+provider.add_span_processor(simple_processor)
 
 trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
@@ -62,6 +93,11 @@ cognito_token_verfication = CognitoTokenVerification(
 # Intialize automatic instrumentation with flask
 RequestsInstrumentor().instrument()
 # The above is can be removed - line 56
+=======
+# X-RAY ----------
+# XRayMiddleware(app, xray_recorder)
+
+# HoneyComb ---------
 FlaskInstrumentor().instrument_app(app)
 RequestsInstrumentor().instrument()
 
@@ -99,6 +135,33 @@ cors = CORS(
 def rollbar_test():
     rollbar.report_message('Hello World!', 'warning')
     return "Hello World!"
+=======
+# @app.after_request
+def after_request(response):
+    timestamp = strftime('[%Y-%b-%d %H:%M]')
+    LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
+    return response
+
+# ROLLBAR ------ 
+#rollbar_access_token = os.getenv('ROLLBAR_ACCESS_TOKEN')
+#@app.before_first_request
+#def init_rollbar():
+#    """init rollbar module"""
+#    rollbar.init(
+#        # access token
+#        rollbar_access_token,
+#        # environment name
+#        'production',
+#        root=os.path.dirname(os.path.realpath(__file__)),
+#        # flask already sets up logging
+#        allow_logging_basic_config=False)
+#    got_request_exception.connect(rollbar.contrib.flask.report_exception, app)
+
+#@app.route('/rollbar/test')
+#def rollbar_test():
+#    rollbar.report_message('Hello World!', 'warning')
+#    return "Hello World!"
+
 
 @app.route("/api/message_groups", methods=['GET'])
 def data_message_groups():
@@ -137,12 +200,7 @@ def data_create_message():
 
 @app.route("/api/activities/home", methods=['GET'])
 def data_home():
-  data = HomeActivities.run()
-  return data, 200
-
-@app.route("/api/activities/notifications", methods=['GET'])
-def data_notifications():
-  data = NotificationsActivities.run()
+  data = HomeActivities.run(logger=LOGGER)
   return data, 200
 
 @app.route("/api/activities/@<string:handle>", methods=['GET'])
