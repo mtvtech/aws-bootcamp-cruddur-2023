@@ -1,1 +1,14 @@
 # Week 4 — Postgres and RDS
+
+
+PostgreSQL database deployment
+
+Here we go:
+
+![image](https://user-images.githubusercontent.com/124897604/228431408-a8c110bd-047f-4fd2-ba4a-62cab2154a0e.png)
+
+
+
+
+<img width="1413" alt="image" src="https://user-images.githubusercontent.com/124897604/228430982-15e26499-b00b-4f29-ad8a-0d5b28928f99.png">
+
