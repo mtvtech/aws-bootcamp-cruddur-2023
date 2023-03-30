@@ -16,6 +16,11 @@ Here we go:
 psql
 
 ![image](https://user-images.githubusercontent.com/124897604/228890820-affa14d0-ff3c-49f7-a773-d143ff71c12c.png)
+u
+
+![image](https://user-images.githubusercontent.com/124897604/228953299-8d8fc583-51ab-4c21-a467-b6f99ebe0fe5.png)
+
+
 
 
 
