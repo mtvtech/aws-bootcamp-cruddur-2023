@@ -12,3 +12,10 @@ Here we go:
 
 <img width="1413" alt="image" src="https://user-images.githubusercontent.com/124897604/228430982-15e26499-b00b-4f29-ad8a-0d5b28928f99.png">
 
+
+psql
+
+![image](https://user-images.githubusercontent.com/124897604/228890820-affa14d0-ff3c-49f7-a773-d143ff71c12c.png)
+
+
+
