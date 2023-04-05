@@ -1,2 +1,9 @@
 #!  /usr/bin/bash
+echo "db-create"
+
+CYAN='\033[1;36m'
+NO_COLOR='\033[0m'
+LABEL="db-drop"
+printf "${CYAN}== ${LABEL}${NO_COLOR}\n"
+
 psql $CONNECTION_URL -c "drop database cruddur;"
