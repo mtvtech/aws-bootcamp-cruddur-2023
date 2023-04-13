@@ -2,6 +2,7 @@ from flask import Flask
 from flask import request
 from flask_cors import CORS, cross_origin
 import os
+import sys
 
 from services.home_activities import *
 from services.user_activities import *
@@ -30,7 +31,7 @@ import rollbar.contrib.flask
 from flask import got_request_exception
 
 # Honeycomb
-=======
+# =======
 # X-RAY ----------
 #from aws_xray_sdk.core import xray_recorder
 #from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
@@ -66,8 +67,8 @@ provider.add_span_processor(processor)
 #xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
 
 # Show this in the logs within the backend-flask app (STDOUT)
-#simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
-#provider.add_span_processor(simple_processor)
+# simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
+# provider.add_span_processor(simple_processor)
 # X-RAY
 # xray_url = os.getenv("AWS_XRAY_URL")
 # xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
@@ -80,10 +81,10 @@ tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
 
-cognito_token_verfication = CognitoTokenVerification(
-  user_pool_id=os.getenv('AWS_COGNITO_USER_POOLS_ID'), 
-  user_pool_client_id=os.getenv('AWS_COGNITO_CLIENT_ID'), 
-  region=os.getenv('AWS_DEFAULT_REGION'):
+cognito_jwt_token = CognitoJwtToken(
+  user_pool_id=os.getenv("AWS_COGNITO_USER_POOL_ID"), 
+  user_pool_client_id=os.getenv("AWS_COGNITO_USER_POOL_CLIENT_ID"),
+  region=os.getenv("AWS_DEFAULT_REGION")
 )
 
 # X-RAY ----------
@@ -91,9 +92,8 @@ cognito_token_verfication = CognitoTokenVerification(
 
 # HoneyComb
 # Intialize automatic instrumentation with flask
-RequestsInstrumentor().instrument()
+# RequestsInstrumentor().instrument()
 # The above is can be removed - line 56
-=======
 # X-RAY ----------
 # XRayMiddleware(app, xray_recorder)
 
@@ -135,7 +135,7 @@ cors = CORS(
 def rollbar_test():
     rollbar.report_message('Hello World!', 'warning')
     return "Hello World!"
-=======
+
 # @app.after_request
 def after_request(response):
     timestamp = strftime('[%Y-%b-%d %H:%M]')
