@@ -13,6 +13,7 @@ services:
       - ./backend-flask:/backend-flask
   frontend-react-js:
     environment:
+      CONNECTION_URL: "{$CONNECTION_URL}
       REACT_APP_BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
     build: ./frontend-react-js
     ports:
